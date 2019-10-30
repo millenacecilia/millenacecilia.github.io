@@ -5,7 +5,7 @@ html {
 h1 {
 	position: absolute;
 	top:200PX;
-	left:10px;
+	left:45px;
 	font-family:Verdana;
 	line-height: 26px
 	font-weight:;
@@ -16,7 +16,7 @@ p {
 font-family:Verdana;
 position: absolute;
 	top:260px;
-	left:10px;
+	left:45px;
 	width:550px;
 	line-height:26px;
 	color:rgb(255,255,255);
@@ -300,34 +300,39 @@ width: 100px;
   transition:all 0.2s;
 }
 
+.rbox {
+	position: absolute;
+	top:0px;
+left: 35px;
+}
 .nbox {
 	position: absolute;
 top:0px;
-left: 60px;
+left: 100px;
 }
 
 .abox {
 	position: absolute;
 top: 0px;
-left: 25px;
+left: 60px;
 }
 
 .sbox {
 	position: absolute;
 top: 0px;
-left: 60px;
+left: 100px;
 }
 
 .ebox {
 	position: absolute;
 top: 0px;
-left: 50px;
+left: 90px;
 }
 
 .gbox {
 	position: absolute;
 top: 0px;
-left: 40px;
+left: 80px;
 }
 
 .rbox:hover .r1{
