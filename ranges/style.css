@@ -7,9 +7,9 @@ h1 {
 	top:200PX;
 	left:45px;
 	font-family:Verdana;
-	line-height: 26px
+	line-height: 24px
 	font-weight:;
-	color:rgb(255,255,255);
+	color:rgb(185,185,185);
 }
 
 p {
@@ -18,8 +18,8 @@ position: absolute;
 	top:260px;
 	left:45px;
 	width:550px;
-	line-height:26px;
-	color:rgb(255,255,255);
+	line-height:24px;
+	color:rgb(185,185,185);
 }	
 
 .r1 {
@@ -364,7 +364,7 @@ left: 80px;
 }
 
 .gbox:hover .g1 {
-	background-color: rgb(235,179,14);
+	background-color: rgb(255,226,0);
 }
 
 .gbox:hover .g3 {
