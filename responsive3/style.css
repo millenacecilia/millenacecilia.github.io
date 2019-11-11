@@ -111,6 +111,16 @@ p {
 }
 
 @media (max-width: 1024px) {
+ .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(197,226,250);
+  background-repeat: no-repeat;
+}
+
  .wrapper {
   position: absolute;
   top: 0;
@@ -185,5 +195,17 @@ p {
     font-size: 12px;
     letter-spacing: 3px;
     line-height: 34px;
-    text-align: center;
+    text-align: center; }
+
+.t1 {
+ display: none;
+}
+
+.t2 { 
+display:none;
+}
+
+.t3 {
+display:none;
+}
 }
