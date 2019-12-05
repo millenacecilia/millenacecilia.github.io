@@ -1,0 +1,38 @@
+.ABOUT {
+	position: absolute;
+    top: 520px;
+    left: 652px;
+    font-family: 'Bebas Neue', cursive;
+  	color: rgb(0,0,0);
+ }
+
+ a:hover {
+  color: rgb(213, 221, 224);
+  cursor: pointer;
+ }
+
+.divider {
+	position: absolute;
+    top: 520px;
+    left: 732px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.WORK {
+    position: absolute;
+    top: 520px;
+    left: 766px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ .WORK:hover {
+  color: rgb(213, 221, 224);
+  cursor: pointer;
+  transition: all 0.4s;
+ }
+
+ a {
+  text-decoration:none;
+  color:black;
+  transition: all 0.4s;
+ }
