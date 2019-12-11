@@ -1,0 +1,44 @@
+.ABOUT {
+	position: absolute;
+    top: 520px;
+    left: 652px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all 0.4s;
+ }
+
+ a:hover {
+  opacity:60%;
+  cursor: pointer;
+ }
+
+.divider {
+	position: absolute;
+    top: 520px;
+    left: 732px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.WORK {
+    position: absolute;
+    top: 520px;
+    left: 766px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ .WORK:hover {
+  opacity:90%;
+  cursor: pointer;
+  transition: all 0.4s;
+  color:black;
+ }
+
+ a {
+  text-decoration:none;
+  color:black;
+  transition: all 0.4s;
+ }
+
+ .home {
+  width:1024px;
+  height:724px;
+ }

@@ -1,0 +1,59 @@
+.storm {
+	position: fixed;
+    top: 30px;
+    left: 720px;
+	width:590px;
+	height:739px;
+	box-shadow: 1px 0px 10px 3px rgba(0, 0, 0, .1);
+}
+
+h1 {
+	position: absolute;
+    left: 100px;
+    top: -18px;
+    font-size:70px;
+    font-family: 'Bebas Neue', cursive;
+   }
+
+h2 {
+	position: absolute;
+    left: 100px;
+    top: 82px;
+    font-size:24px;
+    width: ;
+    height: ;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+	position: absolute;
+    left: 100px;
+    top: 115px;
+    width: ;
+    height: ;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(110, 110,110);
+}
+
+p {
+	position: absolute;
+	left:100px;
+	top:150px;
+	width:520px;
+	font-size:16px;
+    line-height:22px;
+	font-family: 'Courier New';
+}
+
+.arrow {
+    position: absolute;
+    left: 9px;
+    top: 31px;
+    width: 72px;
+    height: 72px;
+}
+
+ .arrow:hover {
+  opacity: 60%;
+  cursor: pointer;
+  transition: all 0.4s;

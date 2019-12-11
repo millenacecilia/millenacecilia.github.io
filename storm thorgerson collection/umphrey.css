@@ -1,0 +1,128 @@
+.name {
+    position: absolute;
+    top: -4px;
+    left: 109px;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.title {
+    position: absolute;
+    top: 100px;
+    left: 109px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.umphrey {
+    position: fixed;
+    top: 60px;
+    left: 730px;
+    width: 608px;
+    height: 606px;
+    box-shadow: 1px 0px 10px 3px rgba(0, 0, 0, .1);
+}
+
+.overview {
+    position: absolute;
+    top: 157px;
+    left: -112px;
+    font-size: 16px;
+    font-family: 'Courier';
+    line-height: 22px;
+    width: 520px;
+}
+
+.releasedate {
+    position: absolute;
+    top: 467px;
+    left: -93px;
+    font-size: 16px;
+    font-family: 'Courier';
+    line-height: 22px;
+    width: 520px;
+}
+
+.genre {
+    position: absolute;
+    top: 537px;
+    left: -127px;
+    font-size: 16px;
+    font-family: 'Courier';
+    line-height: 22px;
+    width: 520px;
+}
+
+.tracklist {
+    position: absolute;
+    top: 602px;
+    left: -100px;
+    font-size: 16px;
+    font-family: 'Courier';
+    line-height: 22px;
+    width: 520px;
+}
+
+p {
+    position: absolute;
+    top: 174px;
+    left: 109px;
+    font-family: 'Courier New';
+    line-height: 22px;
+    width: 520px;
+}
+
+.one {
+    position: absolute;
+    top: 174px;
+    left: 109px;
+    font-size: 16px;
+    font-family: 'Courier New';
+    line-height: 22px;
+    width: 520px; 
+}
+
+.two {
+    position: absolute;
+    top: 484px;
+    left: 108px;
+    font-size: 16px;
+    font-family: 'Courier New';
+    line-height: 22px;
+    width: 520px;
+}
+
+.three {
+    position: absolute;
+    top: 555px;
+    left: 109px;
+    font-size: 16px;
+    font-family: 'Courier New';
+    line-height: 22px;
+    width: 520px;
+}
+
+.four {
+    position: absolute;
+    top: 622px;
+    left: 112px;
+    font-size: 16px;
+    font-family: 'Courier New';
+    line-height: 22px;
+    width: 520px;
+}
+
+.arrow {
+    position: absolute;
+    position: absolute;
+    left: 18px;
+    top: 43px;
+    width: 72px;
+    height: 72px;
+}
+ 
+ .arrow:hover {
+  opacity: 60%;
+  cursor: pointer;
+  transition: all 0.4s;
+}
