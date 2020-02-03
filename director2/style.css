@@ -1,0 +1,126 @@
+.masthead {
+  width: 375px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(240, 113, 97);
+}
+
+.outline {
+  z-index: 1;
+  width: 200.6px;
+  height: 286px;
+  position: absolute;
+  top: 117px;
+  left: 100px;
+  border-top: 8px solid rgb(240, 113, 97);
+  border-right: 8px solid rgb(240, 113, 97);
+  border-left:8px solid rgb(240, 113, 97);
+  border-bottom:8px solid rgb(240, 113, 97);
+}
+
+.director {
+  z-index: 5;
+  position: absolute;
+    top: 77px;
+    left: 59px;
+    width: 200.6px;
+    height: 286px;
+}
+
+.name{
+    z-index: 3;
+    position: relative;
+    top: 230px;
+    left: 277px;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.title {
+	position: relative;
+	top:400px;
+	left:;
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-weight: 700;
+	font-size:25px;
+  width:320px;
+}
+
+.pullquote1 {
+  position: relative;
+  left:45px;
+  font-size:23px;
+  width:300px;
+  font-family: cresta, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.end {
+  font-style:italic;
+}
+
+h2 {
+	position: relative;
+	top:400px;
+	left:;
+	font-family: 'Noto Serif KR', serif;
+	font-size:15px;
+}
+
+h3 {
+	position: relative;
+	top:400px;
+	left:;
+	font-family: 'Noto Serif KR', serif;
+	font-size:15px;
+}
+
+p {
+	position: relative;
+	top:400px;
+	left:;
+	font-family: 'Noto Serif KR', serif;
+	font-size:13px;
+  width:340px;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 156px;
+    width: 44.6px;
+    height: 44.6px;
+}
+
+.pic1 {
+    position: relative;
+    top: 415px;
+    left: -10px;
+    width: 383.95px;
+    height: 233.25px;
+}
+
+.pic2 {
+    position: relative;
+    top: 413px;
+    left: -10px;
+    width:383.95px;
+    height:233.25px;
+}
+
+.caption {
+  position: relative;
+  top:403px;
+  left:;
+  font-family: Bai Jamjuree, serif;
+  font-size:12px;
+  width:340px;
+  color: rgb(100,100,100);
+}
