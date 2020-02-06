@@ -1,0 +1,187 @@
+.logo {
+    position: relative;
+    top: -425px;
+    left: 282px;
+    width: 74.62px;
+    height: 74.62px;
+}
+
+
+.pic1 {
+    position: relative;
+    top: 45px;
+    left: -58px;
+    width: 49.5px;
+    height: 507.25px;
+}
+.pic2 {
+    position: relative;
+    top: 25px;
+    left: -45px;
+    width: 49.5px;
+    height: 507.25px;
+}
+
+.pic3 {
+    position: relative;
+    top: 60px;
+    left: -29px;
+    width: 49.5px;
+    height: 507.25px;
+}
+
+.pic4 {
+    position: relative;
+    top: 4px;
+    left: -15px;
+    width: 49.5px;
+    height: 507.25px;
+}
+
+.pic5 {
+    position: relative;
+    top: 100px;
+    left: -1px;
+    width: 49.5px;
+    height: 507.25px;
+}
+
+.title {
+    position: relative;
+    top: 20px;
+    left: 13px;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 64px;
+    font-size: 30px;
+    font-size: 70px;
+}
+
+.subtitle {
+    position: relative;
+    top: -23px;
+    left: 16px;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.arrow {
+    position: relative;
+    top: -24px;
+    left: 151px;
+    width: 51.75px;
+    height: 32.8px;
+}
+
+.article1 {
+position: relative;
+top:170px;
+left:10px;
+font-family: 'Bai Jamjuree', sans-serif;
+font-weight: 700;
+font-size:25px;
+width:340px;
+}
+
+.article2 {
+position: relative;
+top:170px;
+left:10px;
+font-size:16px;
+font-family: cresta, sans-serif;
+font-weight: 500;
+width:340px;
+}
+
+.article3 {
+position: relative;
+top:170px;
+left:10px;
+font-family: 'Noto Serif KR', serif;
+font-size:13px;
+ width:340px;
+}
+
+.body {
+position: relative;
+top:170px;
+left:10px;
+font-family: 'Noto Serif KR', serif;
+font-size:13px;
+ width:330px;
+}
+
+.movie {
+position: relative;
+top:170px;
+left:0px;
+width:340px;
+font-family: cresta, sans-serif;
+font-weight: 500;
+font-style: normal;
+text-align:center;
+}
+
+.pullquote1 {
+  position: relative;
+  top:160px;
+  left:45px;
+  font-size:23px;
+  width:300px;
+  font-family: cresta, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.line {
+    position: relative;
+    width: 100px;
+    top: 182px;
+    left: 120px;
+    border-top: 8px transparent;
+    border-right: 8px transparent;
+    border-left: 8px transparent;
+    border-bottom: 2px solid
+}
+
+.film1 {
+	position: relative;
+	top:210px;
+	left:10px;
+	width:349px;
+	height:75.24px;
+}
+
+.film2 {
+	position: relative;
+	top:220px;
+	left:10px;
+	width:349px;
+	height:75.24px;
+}
+
+.film3 {
+	position: relative;
+	top:230px;
+	left:10px;
+	width:349px;
+	height:75.24px;
+}
+
+.film4 {
+	position: relative;
+	top:240px;
+	left:10px;
+	width:349px;
+	height:75.24px;
+}
+
+.film5 {
+		position: relative;
+	top:250px;
+	left:10px;
+	width:349px;
+	height:75.24px;
+}
