@@ -1,0 +1,338 @@
+body {
+  max-width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.masthead {
+    position: absolute;
+    width: 375px;
+    height:60px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+.director {
+  position: absolute;
+    top: 77px;
+    left: 29px;
+    width: 328px;
+    height: 365.75px;
+}
+
+.name {
+    position: relative;
+    top: 230px;
+    left: 277px;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgb(236, 94, 76);
+}
+
+.title {
+    position: relative;
+    top: 440px;
+    left: 10px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 340px;
+}
+
+.subtitle1 {
+position: relative;
+top:170px;
+left:10px;
+font-size:17px;
+font-family: cresta, sans-serif;
+font-weight: 500;
+width:340px;
+}
+
+.pullquote1 {
+  position: relative;
+  left:55px;
+  font-size:23px;
+  width:300px;
+  font-family: cresta, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.end {
+  font-style:italic;
+}
+
+h2 {
+    position: relative;
+    top: 440px;
+    left: 10px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+h3 {
+    position: relative;
+    top: 440px;
+    left: 10px;
+    font-family: cresta, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 340px;
+}
+
+p {
+	position: relative;
+	top:440px;
+	left:10px;
+	font-family: 'Noto Serif KR', serif;
+	font-size:15px;
+  width:340px;
+}
+
+.logo {
+    position: absolute;
+    top: 7px;
+    left: 160px;
+    width: 44.6px;
+    height: 44.6px;
+}
+
+.pic1 {
+    position: relative;
+    top: 450px;
+    left: -10px;
+    width: 383.95px;
+    height: 233.25px;
+}
+
+.pic2 {
+    position: relative;
+    top: 413px;
+    left: -10px;
+    width:383.95px;
+    height:233.25px;
+}
+
+.caption {
+position: relative;
+    top: 440px;
+    left: ;
+    font-family: Bai Jamjuree, serif;
+    font-size: 13px;
+    width: 340px;
+    color: rgb(100,100,100);
+}
+
+.line {
+    position: relative;
+    width: 100px;
+    top: 460px;
+    left: 130px;
+    border-top: 8px transparent;
+    border-right: 8px transparent;
+    border-left: 8px transparent;
+    border-bottom: 2px solid rgb(213, 53, 33);
+}
+
+.line2 {
+    position: relative;
+    width: 100px;
+    top: 385px;
+    left: 130px;
+    border-top: 8px transparent;
+    border-right: 8px transparent;
+    border-left: 8px transparent;
+    border-bottom: 2px solid rgb(213, 53, 33);
+}
+
+.film1 {
+  position: relative;
+  top:510px;
+  left:10px;
+  width:349px;
+  height:75.24px;
+}
+
+.film2 {
+  position: relative;
+  top:510px;
+  left:10px;
+  width:349px;
+  height:75.24px;
+}
+
+.film3 {
+  position: relative;
+  top:510px;
+  left:10px;
+  width:349px;
+  height:75.24px;
+}
+
+.film4 {
+  position: relative;
+  top:510px;
+  left:10px;
+  width:349px;
+  height:75.24px;
+}
+
+.film5 {
+    position: relative;
+  top:510px;
+  left:10px;
+  width:349px;
+  height:75.24px;
+}
+
+.outline2 {
+    width: 150px;
+    height: 128px;
+    position: absolute;
+    top: 1101px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+}
+
+.outline3 {
+    width: 150px;
+    height: 158px;
+    position: absolute;
+    top: 2740px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+}
+
+.outline4 {
+    width: 150px;
+    height: 225px;
+    position: absolute;
+    top: 2422px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+}
+ .outline5 {
+       width: 150px;
+    height: 128px;
+    position: absolute;
+    top: 3326px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+  }
+
+    .outline6 {
+        width: 150px;
+    height: 190px;
+    position: absolute;
+    top: 5151px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33); 
+  }
+
+    .outline7 {
+    width: 150px;
+    height: 228px;
+    position: absolute;
+    top: 1911px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+    }
+
+    .outline8 {
+    width: 150px;
+    height: 55px;
+    position: absolute;
+    top: 4909px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+    }
+
+    .outline9 {
+    width: 150px;
+    height: 302px;
+    position: absolute;
+    top: 1117px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+    }
+
+    .outline10 {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 3438px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+
+    }
+
+    .outline11 {
+    width: 150px;
+    height: 265px;
+    position: absolute;
+    top: 4739px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+
+    }
+
+    .outline12 {
+    width: 150px;
+    height: 136px;
+    position: absolute;
+    top: 1735px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+    }
+
+    .outline13 {
+    width: 150px;
+    height: 105px;
+    position: absolute;
+    top: 2413px;
+    left: -130px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: 6px solid rgb(213, 53, 33);
+    }
