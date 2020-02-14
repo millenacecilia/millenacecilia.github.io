@@ -1,0 +1,53 @@
+.wipe {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(17, 55, 210);
+  animation-name: animA;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.rotate {
+  position: absolute;
+  top: 20vw;
+  left: 20vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: rgb(235, 41, 14);
+  animation-name: animationA;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animA {
+  0% {
+    background-color: rgb(174, 255, 52);
+    width: 200px;
+  }
+  50% {
+    background-color: rgb(174, 255, 52);
+    width: 1440px; }
+
+  100% {
+    background-color: rgb(255, 102, 212);
+    width: 200px;
+  }
+}
+
+@keyframes animationA {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background-color: rgb(255, 124, 23);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
