@@ -1,0 +1,30 @@
+body {
+	background-color: rgb(0, 0, 24);
+}
+
+.fullmoon {
+    position: absolute;
+    top: 30px;
+    left: 126px;
+    width: 792.5px;
+    height: 542px;
+}
+
+.man {
+    position: absolute;
+    top: 474px;
+    left: 530px;
+    width: 347px;
+    height: 79.5px;
+    z-index:5
+}
+
+.water {
+    position: absolute;
+    top: 538px;
+    left: -12px;
+    width: 1041.75px;
+    height: 236.25px;
+    background-color: rgb(0,0,48);
+    z-index:1
+}
