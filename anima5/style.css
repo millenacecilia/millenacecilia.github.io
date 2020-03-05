@@ -1,0 +1,1005 @@
+.background {
+position: absolute;
+top:0;
+left:0;
+ width: 100vw;
+ height:100vh;
+ background-image: url("background.jpg");
+ background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+.fullmoon {
+position: absolute;
+top: 0vw;
+left: 14vw;
+width: 20vw;
+height: 20vw;
+width: 742.5px;
+height: 502px;
+margin-left: auto;
+margin-right: auto;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+animation-name: moon;
+animation-duration: 45s;
+animation-iteration-count: infinite;
+z-index: 2;
+}
+
+.man {
+    position: absolute;
+    top: 432px;
+    left: 530px;
+    width: 347px;
+    height: 79.5px;
+    z-index:5;
+  animation-name: animan;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.water {
+    position: absolute;
+    top: 500px;
+    left: -19px;
+    width: 1041.75px;
+    height: 236.25px;
+    background-color: rgb(0,0,48);
+    z-index:3
+}
+
+.star1 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 71px;
+left: 55px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star2 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 209px;
+left: 127px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star3 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 18px;
+left: 295px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star4 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 296px;
+left: 25px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+
+.star5 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 381px;
+left: 87px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star6 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 22px;
+left: 47px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star7 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 448px;
+left: 41px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star8 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 101px;
+left: 15px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star9 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 59px;
+left: 165px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star10 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 121px;
+left: 145px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star11 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 171px;
+left: 45px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star12 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 99px;
+left: 73px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star13 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 311px;
+left: 117px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star14 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 21px;
+left: 145px
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star15 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 241px;
+left: 15px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star16 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 51px;
+left: 265px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star17 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 424px;
+left: 115px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star18 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 11px;
+left: 215px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star19 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 469px;
+left: 105px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star20 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 71px;
+left: 115px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star21 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 18px;
+left: 103px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star22 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 241px;
+left: 75px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star23 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 351px;
+left: 50px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star24 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 103px;
+left: 205px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star25 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 472px;
+left: 15px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star26 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 191px;
+left: 100px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star27 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 18px;
+left: 340px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star28 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 51px;
+left: 860px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star29 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 340px;
+left: 990px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star30 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 31px;
+left: 710px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star31 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 10px;
+left: 804px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star32 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 71px;
+left: 802px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star33 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 47px;
+left: 902px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star34 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 131px;
+left: 868px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star35 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 64px;
+left: 980px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star36 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 141px;
+left: 950px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star37 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 191px;
+left: 894px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star38 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 191px;
+left: 970px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star39 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 21px;
+left: 953px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star40 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 101px;
+left: 907px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star41 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 261px;
+left: 880px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star42 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 241px;
+left: 940px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star43 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 287px;
+left: 990px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star44 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 332px;
+left: 930px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star45 {
+width: 7px;
+height: 7px;
+position: absolute;
+top: 43px;
+left: 766px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star46 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 375px;
+left: 895px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star47 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 411px;
+left: 974px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star48 {
+width: 5px;
+height: 5px;
+position: absolute;
+top: 471px;
+left: 916px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star49 {
+width: 4px;
+height: 4px;
+position: absolute;
+top: 454px;
+left: 982px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.star50 {
+width: 6px;
+height: 6px;
+position: absolute;
+top: 125px;
+left: 809px;
+background-color: white;
+border-radius: 50%;
+animation-name: stars;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+
+
+@keyframes stars {
+0% {
+    opacity:100%;
+}
+
+25% {
+    opacity:80%;
+}
+
+50% {
+    opacity:60%;
+}
+
+75% {
+    opacity:40%;
+}
+
+100% {
+    opacity:100%;
+}
+}
+
+
+
+@keyframes moon {
+    0% {
+    background-image: url(fullmoon.png);
+    }
+
+    14.3% {
+    background-image: url(moon2.png);  
+    }
+
+    28.6% {
+    background-image: url(moon3.png);     
+    }
+
+    42.9%{
+    background-image: url(newmoon.png);    
+    }
+
+    57.2% {
+    background-image: url(moon4.png);     
+    }
+
+    71.5% {
+    background-image: url(moon5.png);    
+    }
+
+    85.7% {
+    background-image: url(moon6.png);    
+    }
+
+    100% {
+    background-image: url(fullmoon.png);       
+    }
+    
+}
+
+@keyframes stars {
+0% {
+    opacity:100%;
+}
+
+25% {
+    opacity:60%;
+}
+
+50% {
+    opacity:20%;
+}
+
+75% {
+    opacity:10%;
+}
+
+100% {
+    opacity:100%;
+}
+}
+
+@keyframes animan {
+    0% {
+        left:1000px;
+
+    }
+
+    100% {
+        left:-1000px;
+
+    }
+}
+
+.message {
+position: absolute;
+top: 0vw;
+left: 14vw;
+width: 20vw;
+height: 20vw;
+width: 742.5px;
+height: 502px;
+margin-left: auto;
+margin-right: auto;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+ background-image: url(fullmoon.png);
+ display:none;
+}
+
+.message.alarm {
+display:block;
+z-index:3;
+animation-name: shake;
+animation-duration: .4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        left:0px
+    }
+
+    25% {
+        left:20px;
+    }
+
+    50% {
+        left:-20px;
+    }
+
+    100% {
+        left:0px
+    }
+}
+
+.snooze {
+position: absolute;
+top: 300px;
+left: 410px;
+margin-left: auto;
+margin-right: auto;
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+width:200px;
+height:124px;
+background-image: url(snooze.png);
+display:none;
+}
+
+.snooze.alarm {
+display:block;
+z-index:4;
+}
+
+.man.alarm {
+position: absolute;
+top: 432px;
+left: 530px;
+width: 347px;
+height: 79.5px;
+z-index:5;
+animation-name: mann;
+animation-duration: 1000s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes mann {
+0% {
+    left:342px;
+}
+100% {
+    left:342px;
+}
+
+}
+
+.stars.alarm {
+animation-name: stara;
+animation-duration: .2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes stara {
+0% {
+    opacity:100%;
+}
+
+25% {
+    opacity:80%;
+}
+
+50% {
+    opacity:60%;
+}
+
+75% {
+    opacity:40%;
+}
+
+100% {
+    opacity:100%;
+
+}
+}
+
+.moon1 {
+    position: absolute;
+    top:-9000px;
+    left:9000px;
+    width: 742.5px;
+    height: 502px;
+}
+
+@keyframes shake {
+    0% {
+        left:0px
+    }
+
+    25% {
+        left:20px;
+    }
+
+    50% {
+        left:-20px;
+    }
+
+    100% {
+        left:0px
+    }
+}
+
+.wakeup {
+    width:100px;
+    height:100px;
+    left:100px;
+    top:100px;
+    font-family: 'Bungee', cursive;
+    color: rgb(114,99,71);
+}
+
+
+.wakeup.alarm {
+display:block;
+z-index:1;
+}
