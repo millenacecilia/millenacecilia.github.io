@@ -69,7 +69,7 @@ body {
 
 .hero {
   position: absolute;
-  bottom: 4px;
+  bottom: 20px;
   left: 400px;
   width: 185px;
   height: 185px;
@@ -99,22 +99,22 @@ body {
 .hero.jumping {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 1150ms;
+  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.doing-action {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(5); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
   position: absolute;
   width: 150px;
   height: 150px;
-  bottom: 200px;
+  bottom: 250px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
@@ -125,8 +125,10 @@ body {
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  background-image: url("./img/npc-was-interacted.png");
+  width: 0px;
+  height: 0px;
+  transition: 400ms linear;
 }
 
 .preload-image {
