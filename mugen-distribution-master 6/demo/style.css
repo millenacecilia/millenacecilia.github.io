@@ -129,6 +129,8 @@ body {
   width: 0px;
   height: 0px;
   transition: 400ms linear;
+  animation:none;
+  background-position: 0 center;
 }
 
 .preload-image {
